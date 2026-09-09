@@ -25,13 +25,12 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane style={{background:"cyan"}}>
-I am senior React js/Next.js and Node js nest and express developer with 4 + years experience              <br />
-           I works as Senior MERN Stack developer at SolutionWIngs.io LTD,Islamabad 
-             
+Full Stack Developer with 4+ years experience in React.js, Next.js, Node.js, Nest.js, Express, AI, RAG & FastAPI.
             <br />
-            {/* Also works as node js developer as Freelancer */}
+            Currently working as Full Stack Developer at <strong>FiveLoop</strong>, Lahore — building AI-powered enterprise solutions.
             <br />
-           <span className="ml-8 text-muted">Full Stack Developer</span> 
+            <br />
+           <span className="ml-8 text-muted">Full Stack Developer | MERN | AI &amp; RAG</span>
           </spane>
           <Link to="'https://wa.me/+923189391781'" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

@@ -31,18 +31,35 @@ const Portfolio = () => {
 
   <div className="bodys" style={{borderRadius:'50px',height:"auto"}}>
   
-<a href='https://legalpro-law-assistant-xqou.vercel.app/'>
+<a href='https://dev.lumnbio.com/Trends'>
+
+<div class="card-wrap bbbb">
+<div class="card-header one" style={{ height: '200px', background: 'linear-gradient(135deg,#0f2027,#203a43,#2c5364)' }}>
+  <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'100%',flexDirection:'column',color:'#00e5ff'}}>
+    <span style={{fontSize:'2.5rem'}}>🤖</span>
+    <span style={{fontWeight:'bold',fontSize:'1rem',marginTop:'0.5rem'}}>lumnbio AI</span>
+  </div>
+</div>
+<div class="card-content">
+  <h1 class="card-title">lumnbio AI — Cataract Surgery Education Platform</h1>
+  <p class="card-text">AI-powered platform guiding patients through personalized counseling and generating clinical summaries for surgeons. Built with React.js, Node.js, FastAPI, OpenAI GPT, RAG, MongoDB/PostgreSQL.</p>
+  <a href='https://dev.lumnbio.com/Trends'>
+    <button class="card-btn one">Click</button>
+  </a>
+</div>
+</div>
+</a>
+
+<a href='https://legalpro-law-assistant-m4d3.vercel.app/'>
 
 <div class="card-wrap bbbb">
 <div class="card-header one" style={{ height: '200px' }}>
   <img src={legalpro} style={{ width: '100%', height: '100%' }} />
 </div>
 <div class="card-content">
-  <h1 class="card-title">Legal Pro for law firm
-  in React.js and Node Project</h1>
-  <p class="card-text">Used React.js and Node Tailwind css,html,css3 and i added
-  link of project here.</p>
-  <a href='https://legalpro-law-assistant-xqou.vercel.app/'>
+  <h1 class="card-title">AI-Powered Legal Assistance System</h1>
+  <p class="card-text">Legal assistant powered by GPT models — answers law-related questions with structured guidance on criminal law, rights, and legal procedures. React.js, Next.js, Node.js, FastAPI, OpenAI, PostgreSQL.</p>
+  <a href='https://legalpro-law-assistant-m4d3.vercel.app/'>
     <button class="card-btn one">Click</button>
   </a>
 </div>

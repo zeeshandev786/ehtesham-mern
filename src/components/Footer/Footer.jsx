@@ -47,12 +47,11 @@ const Footer = () => {
                 </span>
               </h3>
               <p className="text-light mb-4 lh-lg">
-                Senior React.js/Next.js and Node.js Developer with 4+ years of experience. Currently working as Senior
-                MERN Stack Developer at SolutionWIngs.io LTD, Islamabad.
+                Full Stack Developer with 4+ years of experience in React.js, Next.js, Node.js, Nest.js, Express, AI, RAG &amp; FastAPI. Currently building AI-powered enterprise solutions at FiveLoop, Lahore.
               </p>
               <div className="d-flex align-items-center mb-3 text-light">
                 <UilMapMarker size="20" className="text-primary me-2" />
-                <span>Islamabad, Pakistan</span>
+                <span>Lahore, Pakistan</span>
               </div>
               <div className="d-flex align-items-center text-light">
                 <UilEnvelope size="20" className="text-primary me-2" />
@@ -137,6 +136,32 @@ const Footer = () => {
                     MERN Stack Solutions
                   </span>
                 </li>
+                <li className="mb-2">
+                  <span
+                    className="text-light"
+                    style={{
+                      cursor: "pointer",
+                      transition: "color 0.3s ease",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#007bff")}
+                    onMouseLeave={(e) => (e.target.style.color = "")}
+                  >
+                    AI / RAG Systems
+                  </span>
+                </li>
+                <li className="mb-2">
+                  <span
+                    className="text-light"
+                    style={{
+                      cursor: "pointer",
+                      transition: "color 0.3s ease",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#007bff")}
+                    onMouseLeave={(e) => (e.target.style.color = "")}
+                  >
+                    FastAPI / Python Backend
+                  </span>
+                </li>
               </ul>
             </div>
 
@@ -214,16 +239,16 @@ const Footer = () => {
               {/* Company Info */}
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 <p className="text-light mb-1 small">
-                  Currently at <span className="text-primary fw-semibold">SolutionWIngs.io LTD</span>
+                  Currently at <span className="text-primary fw-semibold">FiveLoop</span>
                 </p>
-                <p className="text-muted small mb-0">Senior MERN Stack Developer • Islamabad</p>
+                <p className="text-muted small mb-0">Full Stack Developer | AI & RAG • Lahore</p>
               </div>
 
               {/* Social Media Links */}
               <div className="col-md-6 text-center text-md-end">
                 <div className="d-flex justify-content-center justify-content-md-end gap-3">
                   <a
-                    href="https://github.com/Ehteshambutt"
+                    href="https://github.com/EhteshamButt"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-light btn-sm rounded-circle p-2"
@@ -245,7 +270,7 @@ const Footer = () => {
                     <UilGithub size="20" />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/ehteshamali-https://linkedin.com/in/ehteshamali-"
+                    href="https://linkedin.com/in/ehtesham-ali-587979402"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-light btn-sm rounded-circle p-2"

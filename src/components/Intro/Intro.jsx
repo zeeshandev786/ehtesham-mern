@@ -42,7 +42,7 @@ const Intro = () => {
      <span class="title-word title-word-1">Senior Full Stack Developer</span>
     <span class="title-word title-word-2"> with</span>
     <span class="title-word title-word-3"> 4 + years experience</span>
-    <span class="title-word title-word-4"> Next.js React js Node Nest js and Express js</span>
+    <span class="title-word title-word-4"> Next.js React.js Node.js Nest.js Express | AI, RAG, FastAPI</span>
   
 
           </span>
@@ -54,12 +54,12 @@ const Intro = () => {
         <div className="i-icons">
         <a
                   className="nav-link text-light"
-                  href="https://github.com/Ehteshambutt"
+                  href="https://github.com/EhteshamButt"
                 > <img src={Github} alt="" /></a>
           {/* <img src={Github} alt="" /> */}
           <a
                   className="nav-link text-light"
-                  href="https://www.linkedin.com/in/ehtesham-butt-837200162/"
+                  href="https://linkedin.com/in/ehtesham-ali-587979402"
                 > <img src={LinkedIn} alt="" /></a>
           
           <a
