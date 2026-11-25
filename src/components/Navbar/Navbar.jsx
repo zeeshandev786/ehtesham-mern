@@ -4,7 +4,6 @@ import "./Navbar.css";
 import { Link } from "react-scroll";
 import { themeContext } from "../../Context";
 const Navbar = () => {
-  const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
   const darkmode = theme.state.darkMode;
   return (

@@ -1,21 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Portfolio.css";
 
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-
-import c from "../../img/c.PNG";
-import restorent from "../../img/restorent.PNG";
 import legalpro from "../../img/legalpro.png";
 
-
-import HOC from "../../img/hoc.png";
-
-import { themeContext } from "../../Context";
 const Portfolio = () => {
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
   return (
   <>
 <div className="center-text2 text-center">
@@ -54,7 +42,7 @@ const Portfolio = () => {
 
 <div class="card-wrap bbbb">
 <div class="card-header one" style={{ height: '200px' }}>
-  <img src={legalpro} style={{ width: '100%', height: '100%' }} />
+  <img src={legalpro} alt="" style={{ width: '100%', height: '100%' }} />
 </div>
 <div class="card-content">
   <h1 class="card-title">AI-Powered Legal Assistance System</h1>
@@ -69,7 +57,7 @@ const Portfolio = () => {
 
   <div class="card-wrap bbbb">
   <div class="card-header one" style={{ height: '200px' }}>
-    <img src='https://res.cloudinary.com/alpja/image/upload/v1702752171/e7dslq84hzg0wdxyyvyp.png' style={{ width: '100%', height: '100%' }} />
+    <img src='https://res.cloudinary.com/alpja/image/upload/v1702752171/e7dslq84hzg0wdxyyvyp.png' alt="" style={{ width: '100%', height: '100%' }} />
   </div>
   <div class="card-content">
     <h1 class="card-title">Medical Test System for Hospital in React.js Node js</h1>
